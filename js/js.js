@@ -130,10 +130,9 @@
                 $(".special-type").hide(500);
             }
             if (sc > 0) {
-                console.log("yes")
-                navLinks.classList.remove('bg-transparent').show(1000)
+                navLinks.classList.remove('bg-transparent')
             }else{
-                navLinks.classList.toggle('bg-transparent').show(1000)
+                navLinks.classList.toggle('bg-transparent')
             }
 
         })
